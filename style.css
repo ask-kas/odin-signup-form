@@ -79,6 +79,31 @@ label{
     padding-top: 20px;
     padding-left: 35px;
     padding-bottom: 35px;
+    box-shadow: 0 2px 3px -3px black;
+}
+
+#create-account{
+    padding: 15px 45px;
+    background-color: #596d48;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0px 0px 5px grey; 
+}
+
+.login{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.login a{
+    text-decoration: none;
+    color: #596d48;
+    font-weight: bold;
 }
 
 input {
