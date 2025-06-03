@@ -20,6 +20,7 @@ body{
     overflow: hidden;
     background-image: url('assets/halie-west-25xggax4bSA-unsplash.jpg');
     background-size: 100%;
+    position: relative;
 }
 
 .black-outline{
@@ -41,6 +42,18 @@ h1{
     color: white;
     font-size: 10vh;
     display: inline;
+}
+
+#img-footer{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+#img-footer a{
+    color: white;
 }
 
 .right{
