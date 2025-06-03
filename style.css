@@ -58,7 +58,50 @@ h1{
 
 .right{
     width: 60%;
-    
+    background-color: #f9fafb;
 }
 
+.text-up{
+    margin-top: 10vh;
+    margin-left: 35px;
+}
+
+
+label{
+    font-weight: bold;
+    color: #838890;
+    font-size: 0.85em;
+}
+
+.form{
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-bottom: 35px;
+}
+
+input {
+  border: 2px solid #000;
+  margin-bottom: 15px;
+  width: 220px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+th, td{
+    padding-right: 50px;
+}
+
+input:focus {
+  outline: none;
+
+  border-color: blue;
+  box-shadow: 0 0 5px blue;
+
+}
 
